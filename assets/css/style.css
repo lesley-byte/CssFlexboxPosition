@@ -6,6 +6,17 @@ body {
   align-items: center; /* 📍 Centers content horizontally */
   padding: 20px; /* 🧱 Space around the body content */
   background-color: #fafafa; /* 🎨 Light background color for contrast */
+  animation: fadeIn 1.5s ease-in; /* ✨ Smooth fade-in animation on page load */
+}
+
+/* 🌈 Fade-in animation for the body */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* 📝 Styling for main headings and text */
@@ -14,12 +25,22 @@ p {
   text-align: center; /* ↔️ Centers text */
   font-size: 1.5em; /* 🔍 Larger text for readability */
   color: #333; /* 🌑 Darker text color for contrast */
+  transition: color 0.3s ease-in-out; /* 🎨 Smooth transition on color changes */
+}
+
+h1:hover {
+  color: #0073e6; /* 💙 Changes color to blue when hovered */
 }
 
 h2 {
   font-size: 1.3em; /* 🔍 Slightly larger text for subheadings */
   margin-top: 20px; /* 🧱 Space above subheadings */
   color: #444; /* 🌑 Darker color for distinction */
+  transition: color 0.3s ease-in-out; /* 🎨 Smooth color change on hover */
+}
+
+h2:hover {
+  color: #e60000; /* 🔴 Changes color to red on hover */
 }
 
 /* 🔲 Flexbox Container Example */
@@ -31,6 +52,11 @@ h2 {
   height: 200px; /* 📏 Sets a fixed height to see alignment */
   background-color: #f0f0f0; /* 🎨 Light grey background for visibility */
   padding: 30px; /* 🧱 Adds space inside the container */
+  transition: transform 0.3s ease-in-out; /* 🎢 Adds smooth scaling effect */
+}
+
+.flex-container:hover {
+  transform: scale(1.05); /* 🔍 Slightly scales up the container on hover */
 }
 
 /* 🔹 Individual Flex Items */
@@ -43,6 +69,11 @@ h2 {
   width: 120px; /* 📏 Fixed width for each item */
   text-align: center; /* ↔️ Centers text inside each item */
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* 🌫️ Light shadow effect for depth */
+  transition: transform 0.3s ease; /* 🎢 Smooth rotation on hover */
+}
+
+.flex-item:hover {
+  transform: rotate(10deg); /* 🔄 Slight tilt effect on hover */
 }
 
 /* 🟡 Yellow Box: Container for Positioning Example */
@@ -57,6 +88,11 @@ h2 {
   min-height: 200px; /* 📏 Minimum height for size consistency */
   border: 2px solid #ccc; /* 🔲 Light grey border for visibility */
   color: #333; /* 🌑 Darker text color for readability */
+  transition: transform 0.3s ease; /* 🎢 Adds a smooth bounce effect */
+}
+
+.yellow-box:hover {
+  transform: scale(1.02); /* 🔍 Slight scale-up effect on hover */
 }
 
 /* 🔴 Red Box: Experiment with Positioning */
@@ -70,6 +106,15 @@ h2 {
   font-size: 1.1em; /* 🔍 Slightly larger text */
   border-radius: 8px; /* ⚪ Rounds corners */
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* 🌫️ Shadow for emphasis */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* 🎨 Smooth transformation and color change */
+}
+
+.red-box:hover {
+  transform: translate(
+    -10px,
+    -10px
+  ); /* 🔄 Moves slightly up and left on hover */
+  background-color: #ff6347; /* 🍅 Changes to a tomato color on hover */
 }
 
 /* 🎛️ Optional Styling for Labels */
@@ -78,4 +123,9 @@ label {
   margin-right: 10px; /* ↔️ Space to the right of labels */
   display: inline-block;
   margin-bottom: 5px; /* ↔️ Space below each label */
+  transition: color 0.3s ease; /* 🎨 Smooth transition for color change */
+}
+
+label:hover {
+  color: #0073e6; /* 💙 Changes color to blue when hovered */
 }
