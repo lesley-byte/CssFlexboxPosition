@@ -1,0 +1,81 @@
+/* 🌐 Basic styling for the page */
+body {
+  font-family: Arial, sans-serif; /* 🖋️ Sets the font style for the whole page */
+  display: flex; /* 🧱 Arranges content in a column layout */
+  flex-direction: column;
+  align-items: center; /* 📍 Centers content horizontally */
+  padding: 20px; /* 🧱 Space around the body content */
+  background-color: #fafafa; /* 🎨 Light background color for contrast */
+}
+
+/* 📝 Styling for main headings and text */
+h1,
+p {
+  text-align: center; /* ↔️ Centers text */
+  font-size: 1.5em; /* 🔍 Larger text for readability */
+  color: #333; /* 🌑 Darker text color for contrast */
+}
+
+h2 {
+  font-size: 1.3em; /* 🔍 Slightly larger text for subheadings */
+  margin-top: 20px; /* 🧱 Space above subheadings */
+  color: #444; /* 🌑 Darker color for distinction */
+}
+
+/* 🔲 Flexbox Container Example */
+.flex-container {
+  display: flex; /* 🧱 Enables flexbox layout for contained items */
+  flex-wrap: wrap; /* 🔀 Allows items to wrap to a new line if container is too narrow */
+  justify-content: space-around; /* ↔️ Spaces items evenly around the container */
+  align-items: flex-start; /* ↕️ Aligns items at the top of the container */
+  height: 200px; /* 📏 Sets a fixed height to see alignment */
+  background-color: #f0f0f0; /* 🎨 Light grey background for visibility */
+  padding: 30px; /* 🧱 Adds space inside the container */
+}
+
+/* 🔹 Individual Flex Items */
+.flex-item {
+  background-color: #0073e6; /* 🔵 Blue background color */
+  color: white; /* ⚪ White text color for contrast */
+  padding: 30px; /* 🧱 Space inside each item */
+  font-size: 1.2em; /* 🔍 Slightly larger font size */
+  border-radius: 8px; /* ⚪ Rounds corners */
+  width: 120px; /* 📏 Fixed width for each item */
+  text-align: center; /* ↔️ Centers text inside each item */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* 🌫️ Light shadow effect for depth */
+}
+
+/* 🟡 Yellow Box: Container for Positioning Example */
+.yellow-box {
+  position: relative; /* 📍 Sets a relative position as a reference for .red-box */
+  background-color: #ffd700; /* 🟡 Yellow background */
+  padding: 50px; /* 🧱 Space inside the box */
+  margin: 30px; /* 🧱 Space outside the box */
+  border-radius: 8px; /* ⚪ Rounds corners */
+  font-size: 1.2em; /* 🔍 Larger text inside the box */
+  width: 90%; /* 📏 Full-width display inside container */
+  min-height: 200px; /* 📏 Minimum height for size consistency */
+  border: 2px solid #ccc; /* 🔲 Light grey border for visibility */
+  color: #333; /* 🌑 Darker text color for readability */
+}
+
+/* 🔴 Red Box: Experiment with Positioning */
+.red-box {
+  position: absolute; /* 📍 Options: absolute, relative, sticky (try them out!) */
+  top: 20px; /* ↕️ Moves box down from the top of the yellow box */
+  right: 20px; /* ↔️ Moves box in from the right side */
+  background-color: #e60000; /* 🔴 Red background color */
+  color: white; /* ⚪ White text color for readability */
+  padding: 15px; /* 🧱 Space inside the red box */
+  font-size: 1.1em; /* 🔍 Slightly larger text */
+  border-radius: 8px; /* ⚪ Rounds corners */
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* 🌫️ Shadow for emphasis */
+}
+
+/* 🎛️ Optional Styling for Labels */
+label {
+  font-size: 1.2em; /* 🔍 Larger font size for label text */
+  margin-right: 10px; /* ↔️ Space to the right of labels */
+  display: inline-block;
+  margin-bottom: 5px; /* ↔️ Space below each label */
+}

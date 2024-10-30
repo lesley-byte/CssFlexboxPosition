@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 🏷️ Basic metadata for the document -->
+    <meta charset="UTF-8"> <!-- 🌐 Sets the character encoding to UTF-8 for universal text support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 📱 Responsive design for all devices -->
+    <title>CSS Flexbox and Positioning Experiment</title> <!-- 🖥️ Page title displayed in the browser tab -->
+
+    <!-- 🎨 Link to external CSS file for styling -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- 🏠 Page Header -->
+    <header>
+        <h1>CSS Flexbox and Positioning Experiment</h1>
+        <p>
+            Edit the <code>style.css</code> file to see how different CSS properties affect layout and positioning.
+            Try changing values like <strong>justify-content</strong>, <strong>align-items</strong>,
+            <strong>position</strong>, <strong>top</strong>, and <strong>right</strong>.
+        </p>
+    </header>
+
+    <!-- 📦 Flexbox Section -->
+    <section>
+        <h2>Flexbox Example</h2>
+        <p>
+            In the <code>.flex-container</code> section of <code>style.css</code>, change
+            <strong>justify-content</strong>
+            and <strong>align-items</strong> to see how items align horizontally and vertically.
+        </p>
+
+        <!-- 👥 Flex Container with multiple flex items -->
+        <div class="flex-container">
+            <div class="flex-item">Item 1</div> <!-- 🔹 Flex item 1 -->
+            <div class="flex-item">Item 2</div> <!-- 🔹 Flex item 2 -->
+            <div class="flex-item">Item 3</div> <!-- 🔹 Flex item 3 -->
+            <div class="flex-item">Item 4</div> <!-- 🔹 Flex item 4 -->
+            <div class="flex-item">Item 5</div> <!-- 🔹 Flex item 5 -->
+        </div>
+    </section>
+
+    <!-- 🧭 Positioning Section -->
+    <section>
+        <h2>Positioning Example</h2>
+        <p>
+            In the <code>.red-box</code> section of <code>style.css</code>, experiment with <strong>position</strong>
+            (e.g., <code>absolute</code>, <code>relative</code>, <code>sticky</code>) as well as <strong>top</strong>
+            and <strong>right</strong> values to see how the red box moves inside the yellow box.
+        </p>
+
+        <!-- 🟨 Yellow box serves as the container for the red box -->
+        <div class="yellow-box">
+            <p>This is a <strong>yellow box</strong> with <code>position: relative</code>.</p>
+
+            <!-- 🔴 Red box inside the yellow box -->
+            <div class="red-box">
+                This is a <strong>red box</strong> inside the yellow box.
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
