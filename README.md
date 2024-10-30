@@ -1,12 +1,21 @@
 # 🎨 CSS Flexbox & Positioning Experiment
 
+![Static Badge](https://img.shields.io/badge/License-MIT-yellow)
+
+![Beginner Friendly](https://img.shields.io/badge/-Beginner%20Friendly-brightgreen?style=for-the-badge)
+![CSS3](https://img.shields.io/badge/-CSS3-blue?style=for-the-badge&logo=css3&logoColor=white)
+
 Welcome to the **CSS Flexbox & Positioning Experiment**! This project is a hands-on way to learn and practice using **flexbox** and **positioning** in CSS. Perfect for beginners, this project lets you change values in the CSS file and see how they affect layout and alignment.
 
 📝 **Edit. Save. Refresh.** Each time you make a change, save your work and refresh the browser to see the results instantly!
 
 ## 🌐 Live Demo
 
-Check out the live version on **GitHub Pages**: [Project Link](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME)
+✨ [**Explore the Live Version on GitHub Pages**](https://lesley-byte.github.io/CssFlexboxPosition/)
+
+## 🔮 Screenshot
+
+![screenshot](./assets/images/screenshot.jpeg)
 
 ## 📂 Project Structure
 
@@ -68,6 +77,13 @@ Try making these updates to see how they change the layout:
   right: auto; /* Removes right alignment */
 }
 ```
+
+## 💡 Tips for Beginners
+
+- **Play with Values**: Don’t hesitate to try different values for properties. Experimentation is key to learning!
+- **Use Developer Tools**: Open your browser's developer tools (usually F12) to inspect elements and see how changes affect the layout in real-time.
+- **Observe Changes**: Use the "Edit. Save. Refresh." method to see how each change impacts the layout in real-time.
+- **Google is Your Friend**: If you're unsure about a property or value, a quick search can provide helpful explanations and examples.
 
 ## 🤝 Contributing
 
